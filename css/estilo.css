@@ -1,16 +1,3 @@
-body {
-    background-color: lightcyan;
-}
-
-.contacto{
-    color: white;
-}
-
-.titulo{
-    font-family: fantasy;
-    text-align: center;
-    color: #85C1E9;
-}
 
 .descripcion{
     text-align: justify;
@@ -18,39 +5,9 @@ body {
     margin-right: 5rem;
 }
 
-.integrantes{
-    font-family: fantasy;
-    color: #85C1E9;
-    text-align: left;
-    margin-left: 5rem;
-}
-
-.lista{  
-    text-align: left;
-    margin-left: 4rem;
-}
-
-.link {
-    text-decoration: none;
-    text-align: center;
-}
-
-.linkste {
-    text-align: center;
-    font-size: 25px;
-    
-}
-
 .img{
     text-align: center;
 }
-
-.tamano{
-    width: 450px;
-    height: 300px;
-}
-
-.tamano2{
-    width: 400px;
-    height: 300px;
+.bordes{
+    border-color: rgb(16, 199, 129);
 }
