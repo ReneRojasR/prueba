@@ -2,6 +2,10 @@ body {
     background-color: lightcyan;
 }
 
+.contacto{
+    color: white;
+}
+
 .titulo{
     font-family: fantasy;
     text-align: center;

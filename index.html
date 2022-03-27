@@ -6,46 +6,106 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Ayuda a un peludo</title>
 		<link rel="icon" href="imgs/pata.png" />
+		<!--CSS-->
 		<link rel="stylesheet" href="css/estilo.css">
+		<!-- BOOTSTRAP-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+		 rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		
+
 	</head>
 	<body>
-		
-		<div>
-			
-			<h1 class="titulo">ONG - AYUDA A UN PELUDO</h1>
 
-			<div>
-				<p class="descripcion">
-					AYUDA A UN PELUDO es una ONG sin fines de lucro que se mantiene solo
-					de recursos propios, de colaboradores, voluntarios y amigos. Centramos
-					nuestra labor en rescatar animales en situación de riesgo y peligro,
-					los mas desvalidos de los abandonados. Para ello, los asistimos
-					médicamente , los esterilizamos y rehabilitamos para luego,
-					idealmente, incorporarlos de manera definitiva a familias
-					responsables. Conjuntamente,damos la oportunidad de tener un final de
-					vida digno, con todos los cuidados, a perros ancianos terminales
-					abandonados. Promovemos la tenencia responsable de mascotas, apoyando
-					y orientando a la personas para que mejoren su calidad de vida y la de
-					sus animales.
-				</p>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<!--BARRA NAVBAR-->
+			<div class="container-fluid">
+				<!--LOGO DE LA PAGINA-->
+			  <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="no lo encuentro" width="80"></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link active fs-4" aria-current="page" href="#">Inicio</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<!--BOTON PARA DESPLEGAR TIPOS DE MASCOTAS-->
+					<a class="nav-link active dropdown-toggle fs-4" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Mascotas
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					  <li><a class="dropdown-item" href="Perro.html">Perros</a></li>
+					  <li><a class="dropdown-item" href="Gato.html">Gatos</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </div>
+			  <!--DIRECCION-->	
+			  <div>
+				  <h6 class="d-none d-sm-block" style="color: white;">Avenida los Maliantes de Chile # 6456 – Metro Conchalí.</h6>
+			  </div>	  
 			</div>
-
-			<h2 class="integrantes">Nuestros integrantes:</h2>	
-
-			<ul class="lista">
-				<li>Rene Rojas - Fundador</li>
-				<li>Alvaro Aguero - Colaborador</li>
-				<li>Miguel Vivallo - Voluntario</li>
-			</ul>
-
-			<h2 class="titulo">Nuestras secciones de ayuda:</h2>
-
-			<h1 class="linkste"><a href="Gato.html" class="link">Gatitos</a>
-				<a href="Perro.html" class="link">Perritos</a></h1>
 			
-			<div class="img">
-				<img src="../imgs/fondo2.jpg" alt="gatosyperros" width="700" height="300" />
-			</div>
+		  </nav>
+		  <br>
+		  <!--DESCRIPCION DE LA PAGINA-->
+		  <div>
+			  <h1 class="text-center">AYUDA A UN PELUDO</h1>
+			<p class="descripcion">
+				es una ONG sin fines de lucro que se mantiene solo
+				de recursos propios, de colaboradores, voluntarios y amigos. Centramos
+				nuestra labor en rescatar animales en situación de riesgo y peligro,
+				los mas desvalidos de los abandonados. Para ello, los asistimos
+				médicamente , los esterilizamos y rehabilitamos para luego,
+				idealmente, incorporarlos de manera definitiva a familias
+				responsables. Conjuntamente,damos la oportunidad de tener un final de
+				vida digno, con todos los cuidados, a perros ancianos terminales
+				abandonados. Promovemos la tenencia responsable de mascotas, apoyando
+				y orientando a la personas para que mejoren su calidad de vida y la de
+				sus animales.
+			</p>
+
+		  </div>
+		<br>
+
+		<!--IMAGEN DEL GATO-->
+		<div class="container-fluid img"> 
+			<img src="imgs/gato.jpg" class="img-fluid max-width: 100%" alt="IMAGEN GATO"  width="1000">
 		</div>
+
+		<br>
+		<br>
+
+		  <!--FOOTER-->
+		<footer class="bg-dark text-white">
+			<div class="container">
+				<nav class="row">	
+					<!--LOGO-->		
+					<a href="#" class="col-3 text-reset d-flex align-items-center">
+						<img src="imgs/pata.png" alt="logo patita" class="mr-2">
+						Ayuda a un peludo!
+					</a>
+					<ul class="col-3 list-unstyled">
+						<li class="font-weight-bold text-uppercase">Contacto</li>
+						<li><p>Telefono: 9 3345 3442</p></li>
+						<li><p>contacto@peludos.cl</p></li>
+						<li><p>Horario de atencion:</p></li>
+						<li><p>Lunes a Viernes de 09 a 18 horas</p></li>
+					</ul>
+					<ul class="col-3 list-unstyled">
+						<li class="font-weight-bold text-uppercase">TODOS LOS DERECHOS RESERVADOS</li>
+						<li><p><a href="#" class="text-reset">Términos y condiciones</a></p></li>
+						<li><p><a href="#" class="text-reset">Política de cookies</a></p></li>
+						<li><p><a href="#" class="text-reset">Política de privacidad</a></p></li>
+					</ul>
+				</nav>
+			</div>
+
+
+		<!--SEPARATE-->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+		
 	</body>
 </html>
