@@ -1,13 +1,16 @@
-
-.descripcion{
-    text-align: justify;
-    margin-left: 5rem;
-    margin-right: 5rem;
+.fondo-form {
+	background-color: #e1fdff;
 }
 
-.img{
-    text-align: center;
+.descripcion {
+	text-align: justify;
+	margin-left: 5rem;
+	margin-right: 5rem;
 }
-.bordes{
-    border-color: rgb(16, 199, 129);
+
+.img {
+	text-align: center;
+}
+.bordes {
+	border-color: rgb(16, 199, 129);
 }
